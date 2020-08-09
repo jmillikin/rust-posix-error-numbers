@@ -1,0 +1,7 @@
+[package]
+name = "posix-error-numbers"
+version = "0.1.0"
+authors = ["John Millikin <john@john-millikin.com>"]
+edition = "2018"
+
+[lib]
