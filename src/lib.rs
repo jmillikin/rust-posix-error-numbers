@@ -65,19 +65,19 @@ impl fmt::Display for ErrorCode {
 
 impl fmt::Binary for ErrorCode {
 	fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
-			self.0.fmt(fmt)
+		self.0.fmt(fmt)
 	}
 }
 
 impl fmt::LowerHex for ErrorCode {
 	fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
-			self.0.fmt(fmt)
+		self.0.fmt(fmt)
 	}
 }
 
 impl fmt::UpperHex for ErrorCode {
 	fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
-			self.0.fmt(fmt)
+		self.0.fmt(fmt)
 	}
 }
 
